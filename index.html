@@ -7,13 +7,27 @@
     <title>Simulatore</title>
 </head>
     <body>
-        Val1:
-        <input type="number"/><br />
-        Val2:
-        <input type="number"/><br />
-        Val3:
-        <input type="number"/><br />
-        Val4:
-        <input type="number"/><br />
+        <!-- Input -->
+        <div class="inputValues">
+            Val1:
+            <input type="number"/><br />
+            Val2:
+            <input type="number"/><br />
+            Val3:
+            <input type="number"/><br />
+            Val4:
+            <input type="number"/><br />
+        </div>
+        <!-- Grafico -->
+        <div class="grafico">
+            <canvas id="myChart" width="300" height="300"></canvas>
+        </div>
+
+        <!-- Script -->
+        <script src="./Scripts/main.js"></script>
+
+        <!-- Script del Grafico -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+        <script src="./Scripts/Charts.js"></script>
     </body>
 </html>
